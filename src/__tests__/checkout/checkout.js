@@ -1,11 +1,13 @@
 
-   function validateCollectionList(collectionList){
+   const validateCollectionList = (collectionList) => {
       return collectionList.length > 0 ? true : false;
-   }
-   function validatePaymentData(paymentData){
+   };
+  
+   const validatePaymentData = (paymentData) => {
       return paymentData.cardNumber && paymentData.codeCvv && paymentData.expirationDate ? true : false;
-   }
-   function validateTransaction(paymentData){
+   };
+
+   const validateTransaction = (paymentData) => {
       const payment = {
          'cardNumber': '4242 4242 4242 4242',
          'expirationDate': '01/20',
