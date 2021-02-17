@@ -50,3 +50,15 @@
     }
   }
   
+  @media screen and (max-width: 832px) {
+    .collection-item{
+      .collection-footer{
+        .name,.price{
+          font-size: 14px;
+        }
+        .price{
+          width: 30%;
+        }
+      }
+    }
+  }

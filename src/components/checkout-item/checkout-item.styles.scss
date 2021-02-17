@@ -40,3 +40,11 @@
     }
   }
   
+  @media screen and (max-width: 832px) {
+    .collection-item{
+      .custom-button {
+        min-width: 95px;
+        padding: 0px;
+      }
+    }
+  }

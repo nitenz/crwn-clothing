@@ -22,6 +22,9 @@ const Header = ({ currentUser, hidden }) => (
             <Link className="option" to="/contacts">
                 CONTACTS
             </Link>
+            <Link className="option" to="/checkout">
+                CHECKOUT
+            </Link>
 
             {
                 currentUser ? 
