@@ -20,6 +20,7 @@
       position: absolute;
       top: 255px;
       display:none;
+      z-index: 5;
     }
 
     &:hover{
@@ -40,12 +41,14 @@
       font-size: 18px;
   
       .name {
-        width: 90%;
+        width: 70%;
         margin-bottom: 15px;
       }
   
       .price {
-        width: 10%;
+        width: 30%;
+        text-align: right;
+        padding-right: 5px;
       }
     }
   }

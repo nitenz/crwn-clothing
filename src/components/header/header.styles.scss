@@ -6,9 +6,11 @@
     margin-bottom: 25px;
   
     .logo-container {
-      height: 100%;
-      width: 70px;
-      padding: 25px;
+      padding: 5px 15px 15px 15px;
+      .logo{
+        width: 50px;
+        height: 50px;
+      }
     }
   
     .options {
@@ -25,3 +27,55 @@
     }
   }
   
+  @media screen and (max-width: 529px) {
+    .header{
+      .logo-container{
+        width: 10%;
+        height: 22px;
+        a{
+          svg{
+            width: 30px;
+            height: 19px;
+          }
+        }
+      }
+      .options{
+        width: 100%;
+        .option{
+          padding: 5px;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 452px) {
+    .header{
+      .logo-container{
+        padding: 18px 15px 15px 15px;
+        .logo{
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 406px) {
+    .header{
+      .logo-container{
+        .logo{
+          display: none;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 290px) {
+    .header{
+      .options{
+        .option{
+          padding: 2px;
+        }
+      }
+    }
+  }
